@@ -1,0 +1,159 @@
+ body {BACKGROUND-REPEAT: 
+	repeat; 
+	scrollbar-3dlight-color:#0000cd;
+	scrollbar-arrow-color:#0000cd;
+	scrollbar-base-color:#0000cd; 
+	scrollbar-darkshadow-color:#6495ed; 
+	scrollbar-face-color:#6495ed; 
+	scrollbar-highlight-color:#FFEEDD; 
+	scrollbar-shadow-color:#FF9966 
+	}
+
+
+ A:link      { color: #6495ed; TEXT-DECORATION: none }
+ A:visited   { color: #66cdaa; TEXT-DECORATION: none }
+ A:active    { color: #6495ed; TEXT-DECORATION: none }
+ A:hover     { color: #7cfc00; TEXT-DECORATION: underline }
+
+ input.press { BORDER-BOTTOM: #330000 2px solid; BORDER-LEFT: #FF6699 2px solid; BORDER-RIGHT: #330000 2px solid; BORDER-TOP: #FF6699 2px solid; background-color: #990000; color: #FFFFFF; font-weight: bold; font-family: Verdana, Tahoma, Arial; font-size: 10pt; cursor: hand }
+
+ p.sidebar   { BACKGROUND: #FFEEDD; BORDER-BOTTOM: #FFCC99 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #FFCC99 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Verdana, Tahoma, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-ALIGN: center }
+ p.title     { BACKGROUND: #FFCC99; BORDER-BOTTOM: #FF9966 4px solid; BORDER-LEFT: #FFEEDD 4px solid; BORDER-RIGHT: #FF9966 4px solid; BORDER-TOP: #FFEEDD 4px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Verdana, Tahoma, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+
+ .posts      { font-family: Verdana, Arial, sans-serif; color: #990000; font-size: 12px }
+ .author     { padding: 3px; width: 100%; BACKGROUND: #FFEEDD; BORDER-BOTTOM: #FFCC99 1px solid; BORDER-LEFT: #FFFFFF 1px solid; BORDER-RIGHT: #FFCC99 1px solid; BORDER-TOP: #FFFFFF 1px solid; COLOR: #990000; FONT-FAMILY: Verdana, Tahoma, Arial; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-ALIGN: left }
+ .url        { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+ .link       { padding: 3px; width: 100%; BACKGROUND: #FFEEDD; BORDER-BOTTOM: #FFCC99 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #FFCC99 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #990000; font-size: 9pt; font-family: Verdana; font-weight: bold }
+
+H2
+{
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: 'Goudy Old Style'
+}
+H3
+{
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-FAMILY: Courier
+}
+A
+{
+    FONT-SIZE: 10pt;
+    COLOR: teal;
+    FONT-FAMILY: Courier
+}
+
+.TitleLight
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: x-large;
+    COLOR: black;
+    FONT-FAMILY: Arial Narrow, Arial, Helvetica, Sans-Serif
+}
+.TitleDark
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-large;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Sans-Serif
+}
+.CurrentFolder
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: large;
+    COLOR: black;
+    FONT-FAMILY: Arial Narrow, Arial, Helvetica, Sans-Serif;
+    FONT-VARIANT: normal
+}
+.Email
+{
+    BORDER-TOP: black thin solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Sans-Serif;
+    TEXT-ALIGN: right
+}
+.Navigation
+{
+    MARGIN-TOP: 10px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    MARGIN-BOTTOM: 10px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, Sans-Serif;
+    TEXT-ALIGN: center;
+    FONT-VARIANT: small-caps
+}
+.Welcome
+{
+    FONT-SIZE: small;
+    MARGIN-LEFT: 10px;
+    COLOR: black;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, Sans-Serif
+}
+.Subtitle
+{
+    FONT-WEIGHT: bold;
+    FONT-VARIANT: small-caps
+}
+.Label
+{
+    FONT-VARIANT: small-caps
+}
+.BoldLabel
+{
+    FONT-WEIGHT: bold;
+    FONT-VARIANT: small-caps
+}
+TABLE
+{
+    COLOR: dodgerblue;
+    FONT-FAMILY: Courier
+}
+TD
+{
+    COLOR: dodgerblue;
+    FONT-FAMILY: Courier
+}
+TH
+{
+    COLOR: dodgerblue;
+    FONT-FAMILY: Courier;
+    FONT-VARIANT: small-caps
+}
+.eGo
+{
+    BORDER-RIGHT: #ffffff thin solid;
+    BORDER-TOP: #ffffff thin solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #ffffff thin solid;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: #ffffff thin solid;
+    FONT-FAMILY: Verdana,sans-serif;
+    HEIGHT: 22px;
+    BACKGROUND-COLOR: #4169e1
+}
+   
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;} 
+
+nb-checkbox {
+  margin-bottom: 1rem;
+}
+
+.form-inline [fullWidth] {
+  flex: 1;
+}
+
+.form-inline > * {
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+nb-card.inline-form-card nb-card-body {
+  padding-bottom: 1;
+}

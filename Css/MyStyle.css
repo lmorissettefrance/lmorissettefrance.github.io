@@ -1,0 +1,230 @@
+/* Style sheet 2017/03/07 by Lyne Morissette */
+
+body {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Arial, Sans-Serif;
+      
+}
+
+
+
+/* Google Fonts */
+h1, h2, h3, h4{
+   font-family: 'Pacifico', cursive;
+   /*color: White;*/
+}
+
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Navigation */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+section.banner {
+     background-image: url("../images/MSA_old.jpg");
+    /*background-color:#999999;*/
+    background-position :center;
+    background-repeat:no-repeat;    
+    /* top right bottom left */
+    padding: 100px 0px 200px 0px;
+    color:#ffffff;
+    /*-- scrolling */
+    widht:200px;
+   background-attachment: fixed;
+}
+
+section.banner h1 { text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding:20px;
+}
+
+section.banner p { text-align: center;
+                text-decoration: none;      
+                font-size:20px;        
+                /*padding: 20px 0px 110px 0px;*/
+}
+
+/*-------------------*/
+section.apropos{  background-image: url("../images/small_steps.png");
+                   background-repeat:not-repeat; 
+                   overflow: hidden; 
+                   /* pour empêcher le débordement pour le float image profil*/ 
+                                       
+}
+
+section.ditools h2{text-align: left;
+                   margin-left: 200px;
+
+}
+img.profile { 
+               float: left;   
+               margin-left: 20px;
+               margin-right: 20px;
+               margin-bottom: 20px;
+               border: 1px solid gray;
+               padding: 0.2%;
+              
+}               
+
+
+
+section.apropos h2{ text-align: center;                   
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                    font-weight: bold;
+                    font-family: Arial, Sans-Serif;
+                    }
+                    
+ .box {font-size: 20px;
+       padding: 50px 100px; /* 50px sur haut-bas et 100 sur gauche-droite*/
+        }
+                     
+ .box h2{color:#218024;  
+            text-align: center;  
+            font-family: Arial, Sans-Serif;   
+            font-weight: bold;  
+            font-size: 150%;   
+            margin-top: 20px;
+            margin-bottom: 20px;
+  }
+  
+ .box h3{font-family: Arial, Sans-Serif;
+         color:purple;
+         text-align: center;  
+          font-size: 90%;   
+          font-weight: bold;  
+          margin-top: 20px;
+          margin-bottom: 20px;       
+  }
+
+ .box img{font-family: Arial, Sans-Serif;
+          font-weight: bold;
+          font-size: 90%;
+           margin-top: 10px;
+           margin-bottom: 20px;
+           margin-left: 90px;
+           margin-right:20px;
+           padding: 0.5%;
+           text-align: center; 
+  }
+  
+
+.ul_outils{
+  list-style:none;
+    margin:0 20 0 75px;
+  /*  position : fixed;*/
+    width: 100%;
+}
+  
+section.services{text-align: center;  
+   }
+            
+ /* toujours lire de droite à gauche */ 
+  img.service    {border-radius: 50%;
+                  border: 2px solid #96CA2D;  
+              
+              /*box-shadow: 2px 2px 2px gray;*/
+           
+              margin:10px;
+              width: 200px; 
+             /* display : inline;               */
+                           
+     }
+     
+     
+
+section.BD h2{ text-align:center;
+                       padding:25px;
+                        
+    }   
+     
+  
+
+section.BD ul{list-style:none;
+                         /* top right botton left */
+                        margin:0 0 0 75px;
+                        padding:25px;
+                       font-family: 'IM Fell English SC', serif;
+                       font-family: 'Ruluko', sans-serif;
+                       
+    }                     
+  
+ 
+    
+
+section.formulaire h2{ text-align:center;
+                       
+                       padding:15px;
+                        
+    }   
+
+section.formulaire ul{  list-style:none;
+                         /* top right botton left */
+                        margin:0 0 0 75px;
+                        padding:25px;
+                       font-family: 'IM Fell English SC', serif;
+                       font-family: 'Ruluko', sans-serif;
+                      width: 400px;
+                        
+    }
+
+
+section.cl_other h2 { padding:5px;                      
+                      text-align: left; 
+                       /* top right botton left */
+                      margin:0 0 0 450px;
+}
+
+section.cl_other ul{  list-style:none;
+                      /* top right botton left */
+                        margin:0 0 0 475px;
+                        padding:25px;
+                       font-family: 'IM Fell English SC', serif;
+                       font-family: 'Ruluko', sans-serif;
+                      width: 200px;
+                        
+    }
+                          
+  footer.contact{  background-image: url("../images/upfeathers.png");
+            text-align: center; 
+             background-repeat:not-repeat; 
+             margin:1px;
+                  
+    }  
+    
+
+

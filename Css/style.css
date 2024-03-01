@@ -1,0 +1,169 @@
+BODY
+{
+    FONT-SIZE: 8pt;
+    MARGIN: 2px;
+    FONT-FAMILY: arial
+}
+table {
+    font-size: 8pt;
+    font-family: arial;
+	border-collapse: collapse;
+}
+
+thead {
+	display: table-header-group;
+}
+
+th {
+	padding: 3px;
+}
+
+td {
+	padding: 3px;
+}
+
+input {
+    font-size: 8pt;
+}
+
+input.range {
+    width: 80px;
+}
+
+input.orderindex {
+    width: 32px;
+}
+
+input.button {
+    width: 80px;
+    height: 24px;
+}
+
+input.menu {
+    width: 160px;
+    height: 24px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+select {
+    font-size: 8pt;
+}
+
+span.sort {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+a:link {
+    color: #3366cc;
+}
+
+a:active {
+    color: #ffcc39;
+}
+
+a:visited {
+    color: #88a8ff;
+}
+
+a.sort:link {
+    color: #000000;
+}
+
+a.sort:visited {
+    color: #000000;
+}
+
+.silver {
+    background-color: #e8e8e8;
+}
+
+.gray {
+    background-color: #d8d8d8;
+}
+
+.readonly {
+    background-color: #e8e8e8;
+}
+
+.error {
+	color: #ff0000;
+}
+
+@media print {
+    .noprint {
+		display: none;
+	}
+  }
+
+.Desc
+{
+    
+    TEXT-TRANSFORM: capitalize;
+    WIDTH: 310pt;
+    HEIGHT: 22pt;
+    TEXT-ALIGN: left
+}
+.DescText
+{
+    
+    TEXT-TRANSFORM: capitalize;
+    WIDTH: 180pt;
+    HEIGHT: 22pt;
+    TEXT-ALIGN: left
+}
+.Descsmall
+{
+   
+    WIDTH: 210pt;
+    HEIGHT: 22pt;
+    TEXT-ALIGN: left
+}
+H6
+{
+    FONT-SIZE: 8pt;
+    COLOR: gray
+}
+H4
+{
+    FONT-SIZE: 9pt;
+    COLOR: gray
+}
+
+.titlesp
+{
+ 	
+	COLOR: #3366cc;
+	TEXT-ALIGN: left;
+}
+.TEXTAREAInvisible  { COLOR: white; BORDER-RIGHT: medium none;
+			 BORDER-TOP: medium none;BORDER-LEFT: medium none;
+		     BORDER-BOTTOM: medium none;
+			 BACKGROUND-COLOR: transparent;
+			 scrollbar-3dlight-color:#ffffff; scrollbar-arrow-color:#ffffff; scrollbar-base-color:#ffffff; scrollbar-darkshadow-color:#ffffff; scrollbar-face-color:#ffffff; scrollbar-highlight-color:#ffffff; scrollbar-shadow-color:#ffffff }
+
+DI.Journey.ECommerce.AddTransaction({
+idTransaction: '1234',
+idCart: '1234', //Non requis
+affiliation: 'MyStore', //Non requis
+revenue: '0',
+tax: '0',
+shipping: '0'
+});
+
+
+DI.Journey.ECommerce.AddItem({
+idTransaction: '1234',
+productName: 'M-260',
+idProduct: '54368',
+category: 'PC',//Non requis
+idCategory: '123',//Non requis
+Price_unit: '100',
+Price_total: '100',
+quantity: '1'
+});
+
+
+DI.Journey.ECommerce.SubmitTransaction();
