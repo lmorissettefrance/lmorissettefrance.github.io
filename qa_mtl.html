@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> QAMTL [1008]  - _QA_Email_Key [7380] </title>  	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+	
+<script id="DI-Journey-8AMAAGhnZTMyR9QcAAB5Q3ZLYUISBwAA" type="text/javascript" src="https://t.ofsys.com/js/Journey/1/8AMAAGhnZTMyR9QcAAB5Q3ZLYUISBwAA/DI.Journey-min.js">
+</script>
+<script type="text/javascript">	
+	$(function ()
+	{		
+		$.getScript('http://' + getServer() +'/js/Journey/1/8AMAAGhnZTMyR9QcAAB5Q3ZLYUISBwAA/DI.Journey-min.js');
+		
+	});
+	function OFSYS_Tracking_onload()
+	{		
+		track("lmorissette1@dialoginsight.com");
+		track("lmorissette2@dialoginsight.com");
+		track("lmorissette3@dialoginsight.com");
+	}
+
+	function resetStorage()
+	{
+		localStorage.clear();
+		sessionStorage.clear();
+	}	
+
+	function track(email)
+	{
+		resetStorage();
+		DI.Journey.Set("f_EMail", email);
+		DI.Journey.Track();
+	}
+
+	function getServer()
+	{
+		var server = 't.ofsys.com';
+		var urlParams = new URLSearchParams(window.location.search);
+		var entries = urlParams.entries();
+
+		for(pair of entries) 
+		{ 
+			if(pair[0] === 'server')
+				server = pair[1];
+		}
+
+		return server;
+	}
+
+</script>
+
+<h3> QAMTL [1008]  - _QA_Email_Key [7380]</h3>
+
+
+ <br /> 
+ <p> This page link on server "parcours". Marketing auto execute </p>
+ <br /> 
+ <p> Marketing auto (idScenario 6816) Execute </p>
+ <p> Tests-autos Regression / parcours / mtl_mkt_trigger_site.js </p>
+ 
+<div> This page call Marketing Auto Legacy with trigger on 3 contacts
+		<li>lmorissette1@dialoginsight.com</li>
+		<li>lmorissette2@dialoginsight.com</li>
+		<li>lmorissette3@dialoginsight.com</li>
+</di>
+
+</body>
+</html>
