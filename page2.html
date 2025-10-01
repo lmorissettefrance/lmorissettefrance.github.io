@@ -31,6 +31,23 @@
 <body>
     <h1>Bienvenue sur la page 2 Converge!</h1>
     <p>Vous êtes maintenant sur la deuxième page.</p>
+    <script type="text/javascript">
+
+      function OFSYS_Tracking_onload()
+                {
+                    //DI.Journey.Set("OFSYSDebug", "1");
+                    DI.Journey.Set("OFSYSDebugProcess", "8");
+                    console.log('tracking onload From Project 17354897');
+                    DI.Journey.Track();
+                    OFSYS_Tracker2.Set("idContact", "3");
+                   OFSYS_Tracker2.Set("clKey", "IVsUht");
+                   DI.Journey.ECommerce.ProductView('12');
+
+
+
+                }
+
+    </script>
     <p><a href="https://lmorissettefrance.github.io/myconverge.html">← Retour à la page d'accueil</a></p>
 </body>
 </html>
